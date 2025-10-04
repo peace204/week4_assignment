@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <style type="text/CSS">
+        #main-header{
+            text-align: center;
+            background-color: blueviolet;
+            color: azure;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+<a href="my_blog.html">Go to blog</a>
+   <header  id="main-header">
+    <h1>LOGIN DETAILS</h1>
+</header>
+    <form action="resultshow.html" method="GET">
+        <div>
+        <label for="First Name">First Name</label>
+        <input type="text" id="First Name" name="firstName" required>
+         </div>
+        <br>
+        <div>
+        <label for="Middle Name">Middle Name</label>
+        <input type="text" id="Middle Name" name="firstName" required>
+        </div>
+<br>
+         <div>
+        <label for="Last Name">Last Name</label>
+        <input type="text" id="Last name=" name="lastName" required>
+         </div>
+<br>
+         <div>
+        <label for="Message">Message</label>
+        <textarea id="Message" name="message"></textarea>
+         </div>
+<br>
+         <div>
+        <label for="Email">Email</label>
+        <input type="Email" id="Email=" name="Email" required>
+         </div>
+
+<br>
+
+         <div>
+        <label for="password">password</label>
+        <input type="password" id="password name" name="password">
+         </div>
+<br>
+         <div>
+           <h2>favorite fruit</h2> 
+         </div>
+         <div>
+            <label for="Orange">orange</label>
+            <input type="checkbox" id="Orange" name="orange">
+         </div>
+          <div>
+            <label for="mango">mango</label>
+            <input type="checkbox" id="mango" name="mango">
+         </div>
+         
+          <div>
+            <label for="paw-paw">paw-paw</label>
+            <input type="checkbox" id="paw-paw" name="paw-paw">
+         </div>
+         <br>
+<div>
+    <h2>Gender</h2>
+</div>
+<div>
+    <label for="male">male</label>
+    <input type="radio" name="Gender" id="male">
+</div>
+<div>
+    <label for="female">female</label>
+    <input type="radio" name="Gender" id="female">
+</div>
+<div>
+    <label for="others">others</label>
+    <input type="radio" name="Gender" id="others">
+</div>
+<br>
+<div>
+    <label for="Age">Age</label>
+    <input type="number" name="Age" id="Age" min="20" max="150" step="10">
+</div>
+<br>
+<div>
+    <label for="date of birth">D.O.B</label>
+    <input type="date" name="D.O.B" id="date of birth">
+</div>
+<br>
+
+
+<div>
+    <label for="gender">Gender</label>
+    <select type="gender" id="gender">
+        <option value="male">male</option>
+        <option value="female">female</option>
+        <option value="others">others</option>
+    </select>
+</div>
+
+
+
+         
+
+         <button type="reset">reset</button>
+         <button type="submit">submit</button>
+         
+
+         
+
+
+
+
+
+    </form>
+</body>
+</html>
